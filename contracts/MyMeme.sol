@@ -4,7 +4,6 @@ pragma solidity ^0.8.0;
 import "@openzeppelin/contracts/token/ERC20/ERC20.sol";
 import "@openzeppelin/contracts/access/Ownable.sol";
 import "./ITaxHandler.sol";
-import "./ITreasuryHandler.sol";
 
 contract MyMeme is ERC20, Ownable {
     // 税收合约
